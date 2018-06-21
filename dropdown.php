@@ -6,15 +6,21 @@
   <title>jQuery UI Accordion - Collapse content</title>
   <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
   <link rel="stylesheet" href="/resources/demos/style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
   <script>
   $( function() {
     $( "#accordion" ).accordion({
-      collapsible: true
+      collapsible: true,heightStyle: "content"
     });
   } );
   </script>
+
 </head>
 <body>
 
@@ -22,10 +28,13 @@
   <h3>1. ชำระผ่านเว็บไซต์กรุงเทพประกันภัย</h3>
   <div>
     <p>โดยสามารถชำระเบี้ยประกันภัยออนไลน์ด้วยบัตรเครดิต ประเภทวีซ่า (VISA) หรือมาสเตอร์การ์ด (MasterCard) ของทุกธนาคาร
+        สำหรับผู้ถือบัตรเครดิตที่ชำระเบี้ยประกันภัยออนไลน์ครั้งแรก กรุณาลงทะเบียนในระบบรักษาความปลอดภัยออนไลน์ โดย Verified By VISA หรือ MasterCard SecureCode ของแต่ละธนาคารผู้ออกบัตร หลังจากนั้นไม่ต้องทำการ ลงทะเบียนอีก
+        หากท่านมีข้อสงสัยหรือปัญหาในการทำธุรกรรมออนไลน์ สามารถติดต่อได้ที่ 0 2285 8585</p>
+        <div class="container">
+          <button type="button" class="btn btn-success">ชำระเบี้ยประกันภัยด้วยบัตรเครดิต</button>
+        </div>
 
-สำหรับผู้ถือบัตรเครดิตที่ชำระเบี้ยประกันภัยออนไลน์ครั้งแรก กรุณาลงทะเบียนในระบบรักษาความปลอดภัยออนไลน์ โดย Verified By VISA หรือ MasterCard SecureCode ของแต่ละธนาคารผู้ออกบัตร หลังจากนั้นไม่ต้องทำการ ลงทะเบียนอีก
 
-หากท่านมีข้อสงสัยหรือปัญหาในการทำธุรกรรมออนไลน์ สามารถติดต่อได้ที่ 0 2285 8585</p>
   </div>
   <h3>2. ชำระผ่านเคาน์เตอร์ของธนาคาร</h3>
   <div>
